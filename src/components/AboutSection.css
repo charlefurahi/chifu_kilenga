@@ -1,0 +1,91 @@
+.AboutSection {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: black;
+  }
+  
+  .left {
+    width: 40%;
+    color: #ffffff;
+    font-style: oblique;
+  }
+  
+  .left h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: green;
+  }
+  
+  .left p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-style: oblique;
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 55%;
+    color: rgb(255, 255, 255);
+    border-left: 20px;
+  }
+  
+  .skill {
+    background-color: rgb(2, 2, 0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px green;
+    text-align: center;
+    color: black;
+  }
+  
+  .skill-image {
+    width: 300px;
+    height:300px;
+  2
+    border-radius: 10px;
+  }
+  
+  .skill h4 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: green;
+  }
+  
+  .skill p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: ;
+  }
+  
+  .view-link {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  .view-link:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .AboutSection {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .left,
+    .right {
+      width: 100%;
+    }
+  
+    .right {
+      flex-direction: row;
+      gap: 15px;
+      justify-content: space-around;
+    }
+  }
+  
